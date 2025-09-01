@@ -1,1 +1,50 @@
-# DB-Ticket
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket</title>
+</head>
+<body>
+    <img class="Ticket" src="https://i.ibb.co/3mVmn8TG/Ticket-img.png" alt="">
+    <img class="car" src="https://i.ibb.co/chLYdL1j/car.png" alt="">
+
+    <style>
+.Ticket{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1200px;
+}
+
+
+@keyframes _Car {
+  from {
+    left: 530px;
+  }
+
+  to {
+    left: 10px;
+  }
+}
+
+.car{
+    height: 50px;
+    position: relative;
+    bottom: 1080px;
+    transition: 3s;
+    animation-name: _Car;
+    left: 450px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+        
+    </style>
+</body>
+
+</html>
+
+
+
+
