@@ -1,0 +1,31 @@
+.Ticket{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1200px;
+}
+
+
+
+
+@keyframes _Car {
+  from {
+    left: 530px;
+  }
+
+  to {
+    left: 10px;
+  }
+}
+
+.car{
+    height: 50px;
+    position: relative;
+    bottom: 1080px;
+    transition: 3s;
+    animation-name: _Car;
+    left: 450px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
